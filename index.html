@@ -4,121 +4,143 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Javed Saand Tools - Free Online Tools</title>
+<title>Javed Saand Tools</title>
+
+<meta name="description" content="Javed Saand Tools - مفت ۽ آسان آن لائن اوزار، Calculator، Age Calculator، Text Counter، Password Generator ۽ وڌيڪ.">
 
 <style>
-*{box-sizing:border-box}
+*{
+  box-sizing:border-box;
+}
 
 body{
-margin:0;
-font-family:Arial,sans-serif;
-background:#f3f5f7;
-color:#222;
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:#f4f7f5;
+  color:#17251b;
 }
 
 header{
-background:linear-gradient(135deg,#075e54,#0b8f7d);
-color:white;
-text-align:center;
-padding:30px 15px;
+  background:#176b3a;
+  color:white;
+  text-align:center;
+  padding:24px 14px;
 }
 
 header h1{
-margin:0;
-font-size:30px;
+  margin:0;
+  font-size:29px;
 }
 
 header p{
-margin:8px 0 0;
-font-size:16px;
+  margin:8px 0 0;
 }
 
 .container{
-max-width:950px;
-margin:auto;
-padding:15px;
+  max-width:760px;
+  margin:auto;
+  padding:14px;
+}
+
+.card{
+  background:white;
+  border-radius:16px;
+  padding:16px;
+  margin:13px 0;
+  box-shadow:0 3px 12px rgba(0,0,0,.08);
 }
 
 .ad{
-background:white;
-border:1px dashed #aaa;
-border-radius:12px;
-padding:20px;
-margin:15px 0;
-text-align:center;
-color:#777;
+  background:white;
+  border:1px dashed #999;
+  border-radius:12px;
+  padding:15px;
+  margin:13px 0;
+  text-align:center;
+  min-height:70px;
 }
 
-.tool{
-background:white;
-padding:20px;
-margin:18px 0;
-border-radius:15px;
-box-shadow:0 3px 12px rgba(0,0,0,.08);
-}
-
-.tool h2{
-margin-top:0;
-color:#075e54;
-}
-
-input,textarea,select{
-width:100%;
-padding:13px;
-margin-top:10px;
-border:1px solid #ccc;
-border-radius:8px;
-font-size:16px;
-}
-
-textarea{
-min-height:130px;
-resize:vertical;
+.grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:10px;
 }
 
 button{
-width:100%;
-padding:13px;
-margin-top:10px;
-border:0;
-border-radius:8px;
-background:#075e54;
-color:white;
-font-size:16px;
-font-weight:bold;
-cursor:pointer;
+  border:0;
+  border-radius:12px;
+  padding:15px 10px;
+  font-size:15px;
+  font-weight:bold;
+  background:#e7f2ea;
+  color:#145a31;
+  cursor:pointer;
 }
 
-button:hover{
-background:#064c44;
+button:active{
+  transform:scale(.97);
+}
+
+.primary{
+  background:#176b3a;
+  color:white;
+  width:100%;
+  margin-top:7px;
+}
+
+.back{
+  background:#555;
+  color:white;
+  margin-bottom:10px;
+}
+
+input,
+textarea{
+  width:100%;
+  padding:12px;
+  margin:6px 0;
+  border:1px solid #cbd7cd;
+  border-radius:10px;
+  font-size:16px;
 }
 
 .result{
-margin-top:12px;
-padding:14px;
-background:#eef8f6;
-border-radius:8px;
-font-weight:bold;
-line-height:1.8;
+  margin-top:10px;
+  padding:13px;
+  border-radius:10px;
+  background:#eef7ef;
+  font-weight:bold;
+  word-break:break-word;
 }
 
-.copy{
-background:#333;
+.page{
+  display:none;
 }
 
-footer{
-background:#222;
-color:white;
-text-align:center;
-padding:25px;
-margin-top:30px;
+.page.active{
+  display:block;
 }
 
 .small{
-font-size:13px;
-color:#777;
+  font-size:13px;
+  line-height:1.8;
+  color:#5e6b62;
 }
 
+footer{
+  background:#17351f;
+  color:white;
+  text-align:center;
+  padding:22px;
+  margin-top:20px;
+  font-size:13px;
+}
+
+@media(max-width:500px){
+  .grid{
+    grid-template-columns:1fr 1fr;
+  }
+}
 </style>
 </head>
 
@@ -126,212 +148,412 @@ color:#777;
 
 <header>
 <h1>Javed Saand Tools</h1>
-<p>مفت Online Tools ــ هر ڪنهن لاءِ آسان</p>
+<p>آسان ۽ مفت Online Tools</p>
 </header>
 
 <div class="container">
 
-<!-- AD AREA -->
+<!-- ================= ADSTERra AD ================= -->
+
 <div class="ad">
-<strong>Advertisement</strong>
-<br>
-<span class="small">هتي توهان جو Adsterra / Ad Network Ad اچي سگهي ٿو.</span>
+
+<script async="async"
+data-cfasync="false"
+src="https://pl30750368.effectivecpmnetwork.com/b95aaa0c0671dea954f79a21e36ddf92/invoke.js">
+</script>
+
+<div id="container-b95aaa0c0671dea954f79a21e36ddf92"></div>
+
+</div>
+
+<!-- ================= HOME ================= -->
+
+<section id="home" class="page active">
+
+<div class="card">
+
+<h2>🛠️ Javed Saand Tools</h2>
+
+<div class="grid">
+
+<button onclick="openPage('calculator')">
+🧮 Calculator
+</button>
+
+<button onclick="openPage('age')">
+🎂 Age Calculator
+</button>
+
+<button onclick="openPage('counter')">
+📝 Text Counter
+</button>
+
+<button onclick="openPage('password')">
+🔐 Password Generator
+</button>
+
+<button onclick="openPage('whatsapp')">
+📱 WhatsApp Link
+</button>
+
+<button onclick="openPage('qr')">
+🔳 QR Generator
+</button>
+
+</div>
+
 </div>
 
 
-<!-- CALCULATOR -->
-<div class="tool">
+<div class="card">
+
+<h2>🌟 اسان جي سائيٽ</h2>
+
+<p class="small">
+Javed Saand Tools تي توهان کي روزمره جي ڪم لاءِ آسان ۽ مفت Online Tools ملندا.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h2>ℹ️ About Us</h2>
+
+<p class="small">
+Javed Saand Tools هڪ سادي ۽ مفت Online Tools Website آهي،
+جنهن جو مقصد ماڻهن کي روزمره جي ننڍن ڪمن لاءِ آسان Tools مهيا ڪرڻ آهي.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h2>🔐 Privacy Policy</h2>
+
+<p class="small">
+هي Website مختلف Online Tools مهيا ڪري ٿي.
+حساس ذاتي معلومات Website ۾ داخل ڪرڻ کان پاسو ڪريو.
+Ads لاءِ third-party advertising services استعمال ٿي سگهن ٿيون.
+</p>
+
+</div>
+
+</section>
+
+
+<!-- ================= CALCULATOR ================= -->
+
+<section id="calculator" class="page card">
+
+<button class="back" onclick="openPage('home')">
+← واپس
+</button>
 
 <h2>🧮 Calculator</h2>
 
-<input id="calc" type="text" placeholder="مثال: 25+10*2">
+<input id="num1" type="number" placeholder="پهريون نمبر">
 
-<button onclick="calculate()">حساب ڪريو</button>
+<input id="num2" type="number" placeholder="ٻيو نمبر">
 
-<div class="result" id="calcResult">
+<div class="grid">
+
+<button onclick="calculate('+')">
+➕ جمع
+</button>
+
+<button onclick="calculate('-')">
+➖ گھٽ
+</button>
+
+<button onclick="calculate('*')">
+✖️ ضرب
+</button>
+
+<button onclick="calculate('/')">
+➗ ورهائڻ
+</button>
+
+</div>
+
+<div id="calcResult" class="result">
 نتيجو هتي ايندو
 </div>
 
-</div>
+</section>
 
 
-<!-- TEXT COUNTER -->
-<div class="tool">
+<!-- ================= AGE ================= -->
 
-<h2>📝 Text Counter</h2>
+<section id="age" class="page card">
 
-<textarea id="text" oninput="countText()" placeholder="هتي Text لکو..."></textarea>
-
-<div class="result">
-لفظ: <span id="words">0</span><br>
-حروف: <span id="chars">0</span>
-</div>
-
-</div>
-
-
-<!-- AGE CALCULATOR -->
-<div class="tool">
+<button class="back" onclick="openPage('home')">
+← واپس
+</button>
 
 <h2>🎂 Age Calculator</h2>
 
-<label>پنهنجي ڄمڻ جي تاريخ چونڊيو:</label>
+<input id="birthDate" type="date">
 
-<input type="date" id="birth">
+<button class="primary" onclick="calculateAge()">
+عمر معلوم ڪريو
+</button>
 
-<button onclick="ageCalculate()">عمر معلوم ڪريو</button>
-
-<div class="result" id="ageResult">
-عمر هتي ايندي
-</div>
-
-</div>
-
-
-<!-- DATE DIFFERENCE -->
-<div class="tool">
-
-<h2>📅 Date Difference</h2>
-
-<label>شروع جي تاريخ</label>
-<input type="date" id="date1">
-
-<label>ٻئي تاريخ</label>
-<input type="date" id="date2">
-
-<button onclick="dateDifference()">فرق معلوم ڪريو</button>
-
-<div class="result" id="dateResult">
+<div id="ageResult" class="result">
 نتيجو هتي ايندو
 </div>
 
+</section>
+
+
+<!-- ================= TEXT COUNTER ================= -->
+
+<section id="counter" class="page card">
+
+<button class="back" onclick="openPage('home')">
+← واپس
+</button>
+
+<h2>📝 Text Counter</h2>
+
+<textarea
+id="textInput"
+rows="8"
+placeholder="پنهنجو Text هتي لکو"
+oninput="countText()">
+</textarea>
+
+<div id="textResult" class="result">
+Words: 0 | Characters: 0
 </div>
 
+</section>
 
-<!-- PASSWORD GENERATOR -->
-<div class="tool">
+
+<!-- ================= PASSWORD ================= -->
+
+<section id="password" class="page card">
+
+<button class="back" onclick="openPage('home')">
+← واپس
+</button>
 
 <h2>🔐 Password Generator</h2>
 
-<input type="number" id="passLength" value="12" min="4" max="50">
+<input
+id="passwordLength"
+type="number"
+value="12"
+min="6"
+max="40"
+placeholder="Password length">
 
-<button onclick="generatePassword()">Password ٺاهيو</button>
+<button class="primary" onclick="generatePassword()">
+Password ٺاهيو
+</button>
 
-<input id="password" readonly placeholder="Password هتي ايندو">
-
-<button class="copy" onclick="copyPassword()">Copy Password</button>
-
+<div id="passwordResult" class="result">
+نتيجو هتي ايندو
 </div>
 
+</section>
 
-<!-- TEXT CASE -->
-<div class="tool">
 
-<h2>🔤 Text Converter</h2>
+<!-- ================= WHATSAPP ================= -->
 
-<textarea id="converter" placeholder="Text هتي لکو..."></textarea>
+<section id="whatsapp" class="page card">
 
-<button onclick="upperText()">UPPERCASE</button>
+<button class="back" onclick="openPage('home')">
+← واپس
+</button>
 
-<button onclick="lowerText()">lowercase</button>
+<h2>📱 WhatsApp Link Generator</h2>
 
-<button onclick="clearText()">صاف ڪريو</button>
+<input
+id="phone"
+placeholder="مثال: 923001234567">
 
+<input
+id="message"
+placeholder="Message">
+
+<button class="primary" onclick="makeWhatsAppLink()">
+Link ٺاهيو
+</button>
+
+<div id="whatsappResult" class="result">
+نتيجو هتي ايندو
 </div>
 
+</section>
 
-<!-- QR GENERATOR -->
-<div class="tool">
 
-<h2>📱 QR Code Generator</h2>
+<!-- ================= QR ================= -->
 
-<input id="qrText" placeholder="Text يا Link هتي لکو">
+<section id="qr" class="page card">
 
-<button onclick="makeQR()">QR Code ٺاهيو</button>
+<button class="back" onclick="openPage('home')">
+← واپس
+</button>
 
-<div id="qrBox" class="result" style="text-align:center">
-QR Code هتي ايندو
+<h2>🔳 QR Generator</h2>
+
+<input
+id="qrText"
+placeholder="Text يا Website URL">
+
+<button class="primary" onclick="generateQR()">
+QR ٺاهيو
+</button>
+
+<div id="qrResult"
+style="text-align:center;margin-top:15px;">
 </div>
 
-</div>
+</section>
 
 
-<!-- TIME -->
-<div class="tool">
+<!-- ================= BOTTOM AD ================= -->
 
-<h2>🕒 وقت ۽ تاريخ</h2>
-
-<div class="result" id="datetime">
-وقت لوڊ ٿي رهيو آهي...
-</div>
-
-</div>
-
-
-<!-- AD AREA -->
 <div class="ad">
-<strong>Advertisement</strong>
-<br>
-<span class="small">هتي ٻيو Ad لڳائي سگهجي ٿو.</span>
-</div>
 
+<script async="async"
+data-cfasync="false"
+src="https://pl30750368.effectivecpmnetwork.com/b95aaa0c0671dea954f79a21e36ddf92/invoke.js">
+</script>
 
-<!-- ABOUT -->
-<div class="tool">
-
-<h2>ℹ️ Javed Saand Tools بابت</h2>
-
-<p>
-Javed Saand Tools هڪ مفت Online Tools ويب سائيٽ آهي،
-جتي ماڻهو مختلف روزمره جا Tools آساني سان استعمال ڪري سگهن ٿا.
-</p>
-
-<p>
-اسان جو مقصد سادو، تيز ۽ مفت Online Tools مهيا ڪرڻ آهي.
-</p>
-
-</div>
+<div id="container-b95aaa0c0671dea954f79a21e36ddf92-bottom"></div>
 
 </div>
 
 
 <footer>
 
-© 2026 Javed Saand Tools
-
-<br><br>
-
-مفت Online Tools ــ Javed Saand
+Javed Saand Tools<br>
+© 2026 All Rights Reserved
 
 </footer>
+
+</div>
 
 
 <script>
 
+/* PAGE SYSTEM */
+
+function openPage(page){
+
+document.querySelectorAll(".page")
+.forEach(function(section){
+
+section.classList.remove("active");
+
+});
+
+document.getElementById(page)
+.classList.add("active");
+
+window.scrollTo(0,0);
+
+}
+
+
 /* CALCULATOR */
 
-function calculate(){
+function calculate(operator){
 
-let value=document.getElementById("calc").value;
+let a=parseFloat(
+document.getElementById("num1").value
+);
 
-try{
+let b=parseFloat(
+document.getElementById("num2").value
+);
 
-if(!value.trim()){
-document.getElementById("calcResult").innerText="مهرباني ڪري حساب لکو.";
+if(isNaN(a) || isNaN(b)){
+
+document.getElementById("calcResult")
+.innerText="ٻئي نمبر داخل ڪريو.";
+
 return;
-}
-
-let result=Function('"use strict";return ('+value+')')();
-
-document.getElementById("calcResult").innerText=
-"نتيجو: "+result;
-
-}catch(e){
-
-document.getElementById("calcResult").innerText=
-"صحيح حساب لکو.";
 
 }
+
+let result;
+
+if(operator==="+"){
+result=a+b;
+}
+
+else if(operator==="-"){
+result=a-b;
+}
+
+else if(operator==="*"){
+result=a*b;
+}
+
+else if(operator==="/"){
+
+if(b===0){
+
+document.getElementById("calcResult")
+.innerText="صفر سان ورهائي نٿو سگهجي.";
+
+return;
+
+}
+
+result=a/b;
+
+}
+
+document.getElementById("calcResult")
+.innerText="نتيجو: "+result;
+
+}
+
+
+/* AGE CALCULATOR */
+
+function calculateAge(){
+
+let birth=
+document.getElementById("birthDate").value;
+
+if(!birth){
+
+document.getElementById("ageResult")
+.innerText="پيدائش جي تاريخ چونڊيو.";
+
+return;
+
+}
+
+let dob=new Date(birth);
+
+let today=new Date();
+
+let age=
+today.getFullYear()-dob.getFullYear();
+
+let month=
+today.getMonth()-dob.getMonth();
+
+if(
+month<0 ||
+(month===0 &&
+today.getDate()<dob.getDate())
+){
+
+age--;
+
+}
+
+document.getElementById("ageResult")
+.innerText=
+"توهان جي عمر: "+age+" سال";
 
 }
 
@@ -340,98 +562,21 @@ document.getElementById("calcResult").innerText=
 
 function countText(){
 
-let text=document.getElementById("text").value;
+let text=
+document.getElementById("textInput")
+.value;
 
-let chars=text.length;
+let words=
+text.trim()
+? text.trim().split(/\s+/).length
+:0;
 
-let words=text.trim()==="" ?
-0 :
-text.trim().split(/\s+/).length;
+let characters=text.length;
 
-document.getElementById("words").innerText=words;
-
-document.getElementById("chars").innerText=chars;
-
-}
-
-
-/* AGE CALCULATOR */
-
-function ageCalculate(){
-
-let birth=document.getElementById("birth").value;
-
-if(!birth){
-
-document.getElementById("ageResult").innerText=
-"مهرباني ڪري ڄمڻ جي تاريخ چونڊيو.";
-
-return;
-
-}
-
-let b=new Date(birth);
-
-let today=new Date();
-
-let years=today.getFullYear()-b.getFullYear();
-
-let months=today.getMonth()-b.getMonth();
-
-let days=today.getDate()-b.getDate();
-
-if(days<0){
-
-months--;
-
-let previousMonth=
-new Date(today.getFullYear(),today.getMonth(),0);
-
-days+=previousMonth.getDate();
-
-}
-
-if(months<0){
-
-years--;
-months+=12;
-
-}
-
-document.getElementById("ageResult").innerHTML=
-"توهان جي عمر:<br>"+
-years+" سال، "+
-months+" مهينا، "+
-days+" ڏينهن";
-
-}
-
-
-/* DATE DIFFERENCE */
-
-function dateDifference(){
-
-let d1=new Date(document.getElementById("date1").value);
-
-let d2=new Date(document.getElementById("date2").value);
-
-if(isNaN(d1)||isNaN(d2)){
-
-document.getElementById("dateResult").innerText=
-"ٻئي تاريخون چونڊيو.";
-
-return;
-
-}
-
-let difference=Math.abs(d2-d1);
-
-let days=Math.floor(
-difference/(1000*60*60*24)
-);
-
-document.getElementById("dateResult").innerText=
-"فرق: "+days+" ڏينهن";
+document.getElementById("textResult")
+.innerText=
+"Words: "+words+
+" | Characters: "+characters;
 
 }
 
@@ -440,117 +585,108 @@ document.getElementById("dateResult").innerText=
 
 function generatePassword(){
 
-let length=parseInt(
-document.getElementById("passLength").value
+let length=
+parseInt(
+document.getElementById("passwordLength").value
 );
 
+if(!length || length<6){
+
+length=12;
+
+}
+
+if(length>40){
+
+length=40;
+
+}
+
 let chars=
-"ABCDEFGHIJKLMNOPQRSTUVWXYZ"+
-"abcdefghijklmnopqrstuvwxyz"+
-"0123456789"+
-"!@#$%^&*";
+"ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz23456789!@#$%&*";
 
 let password="";
 
 for(let i=0;i<length;i++){
 
-password+=chars.charAt(
-Math.floor(Math.random()*chars.length)
+password+=
+chars.charAt(
+Math.floor(
+Math.random()*chars.length
+)
 );
 
 }
 
-document.getElementById("password").value=password;
+document.getElementById("passwordResult")
+.innerText=password;
 
 }
 
 
-/* COPY PASSWORD */
+/* WHATSAPP */
 
-function copyPassword(){
+function makeWhatsAppLink(){
 
-let password=
-document.getElementById("password");
+let phone=
+document.getElementById("phone")
+.value
+.replace(/\D/g,"");
 
-if(!password.value){
+let message=
+document.getElementById("message")
+.value;
 
-alert("پهريان Password ٺاهيو.");
+if(!phone){
 
-return;
-
-}
-
-navigator.clipboard.writeText(password.value);
-
-alert("Password Copy ٿي ويو.");
-
-}
-
-
-/* TEXT CONVERTER */
-
-function upperText(){
-
-let box=document.getElementById("converter");
-
-box.value=box.value.toUpperCase();
-
-}
-
-function lowerText(){
-
-let box=document.getElementById("converter");
-
-box.value=box.value.toLowerCase();
-
-}
-
-function clearText(){
-
-document.getElementById("converter").value="";
-
-}
-
-
-/* QR CODE */
-
-function makeQR(){
-
-let text=document.getElementById("qrText").value;
-
-if(!text){
-
-document.getElementById("qrBox").innerText=
-"مهرباني ڪري Text يا Link لکو.";
+document.getElementById("whatsappResult")
+.innerText="WhatsApp نمبر داخل ڪريو.";
 
 return;
 
 }
 
 let url=
-"https://api.qrserver.com/v1/create-qr-code/?size=200x200&data="+
+"https://wa.me/"+
+phone+
+"?text="+
+encodeURIComponent(message);
+
+document.getElementById("whatsappResult")
+.innerHTML=
+'<a href="'+url+'" target="_blank">📱 WhatsApp Link کوليو</a>';
+
+}
+
+
+/* QR GENERATOR */
+
+function generateQR(){
+
+let text=
+document.getElementById("qrText")
+.value
+.trim();
+
+if(!text){
+
+document.getElementById("qrResult")
+.innerText="Text يا URL داخل ڪريو.";
+
+return;
+
+}
+
+let url=
+"https://api.qrserver.com/v1/create-qr-code/?size=250x250&data="+
 encodeURIComponent(text);
 
-document.getElementById("qrBox").innerHTML=
-'<img src="'+url+'" alt="QR Code">';
+document.getElementById("qrResult")
+.innerHTML=
+'<img src="'+url+'" width="250" height="250" alt="QR Code"><br><br>'+
+'<a href="'+url+'" target="_blank">QR کوليو</a>';
 
 }
-
-
-/* DATE AND TIME */
-
-function updateTime(){
-
-let now=new Date();
-
-document.getElementById("datetime").innerText=
-now.toLocaleString("sd-PK");
-
-}
-
-setInterval(updateTime,1000);
-
-updateTime();
 
 </script>
 
